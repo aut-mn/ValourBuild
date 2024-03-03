@@ -12,7 +12,7 @@ git clone https://github.com/aut-mn/ValourBuild --DEPTH=1 && cd ValourBuild && s
 2. If you're on MacOS, you need to run `install.py` as a standard user.
 
 ```bash
-sudo python3 install.py
+python3 install.py
 ```
 
 3. Follow the prompts given
@@ -23,3 +23,5 @@ sudo python3 install.py
 Supports MacOS and most Linux distros. 
 
 Note for Windows support, you need Windows 11+ with `winget` and `sudo` installed in order for this installer to function.
+
+Note for MacOS support, you need to have the `brew` package manager installed.
